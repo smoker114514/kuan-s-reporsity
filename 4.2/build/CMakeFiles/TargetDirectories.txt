@@ -1,0 +1,3 @@
+/home/smoker/4.1/4.2/build/CMakeFiles/biaoding.dir
+/home/smoker/4.1/4.2/build/CMakeFiles/edit_cache.dir
+/home/smoker/4.1/4.2/build/CMakeFiles/rebuild_cache.dir

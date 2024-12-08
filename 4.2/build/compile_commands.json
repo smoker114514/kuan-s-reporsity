@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/smoker/4.1/4.2/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/opencv4 -g -o CMakeFiles/biaoding.dir/biaoding.cpp.o -c /home/smoker/4.1/4.2/biaoding.cpp",
+  "file": "/home/smoker/4.1/4.2/biaoding.cpp"
+}
+]
