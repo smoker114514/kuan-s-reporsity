@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/smoker/4.1/4.3/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/opencv4 -g -o CMakeFiles/pnp.dir/pnp.cpp.o -c /home/smoker/4.1/4.3/pnp.cpp",
+  "file": "/home/smoker/4.1/4.3/pnp.cpp"
+}
+]
