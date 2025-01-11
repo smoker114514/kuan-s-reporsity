@@ -1,0 +1,16 @@
+/home/smoker/day1/install/demo_topic/lib/demo_topic/fabu
+/home/smoker/day1/install/demo_topic/share/ament_index/resource_index/package_run_dependencies/demo_topic
+/home/smoker/day1/install/demo_topic/share/ament_index/resource_index/parent_prefix_path/demo_topic
+/home/smoker/day1/install/demo_topic/share/demo_topic/environment/ament_prefix_path.sh
+/home/smoker/day1/install/demo_topic/share/demo_topic/environment/ament_prefix_path.dsv
+/home/smoker/day1/install/demo_topic/share/demo_topic/environment/path.sh
+/home/smoker/day1/install/demo_topic/share/demo_topic/environment/path.dsv
+/home/smoker/day1/install/demo_topic/share/demo_topic/local_setup.bash
+/home/smoker/day1/install/demo_topic/share/demo_topic/local_setup.sh
+/home/smoker/day1/install/demo_topic/share/demo_topic/local_setup.zsh
+/home/smoker/day1/install/demo_topic/share/demo_topic/local_setup.dsv
+/home/smoker/day1/install/demo_topic/share/demo_topic/package.dsv
+/home/smoker/day1/install/demo_topic/share/ament_index/resource_index/packages/demo_topic
+/home/smoker/day1/install/demo_topic/share/demo_topic/cmake/demo_topicConfig.cmake
+/home/smoker/day1/install/demo_topic/share/demo_topic/cmake/demo_topicConfig-version.cmake
+/home/smoker/day1/install/demo_topic/share/demo_topic/package.xml

@@ -1,0 +1,10 @@
+/home/smoker/day1/build/demo_topic/CMakeFiles/uninstall.dir
+/home/smoker/day1/build/demo_topic/CMakeFiles/demo_topic_uninstall.dir
+/home/smoker/day1/build/demo_topic/CMakeFiles/fabu.dir
+/home/smoker/day1/build/demo_topic/CMakeFiles/test.dir
+/home/smoker/day1/build/demo_topic/CMakeFiles/edit_cache.dir
+/home/smoker/day1/build/demo_topic/CMakeFiles/rebuild_cache.dir
+/home/smoker/day1/build/demo_topic/CMakeFiles/list_install_components.dir
+/home/smoker/day1/build/demo_topic/CMakeFiles/install.dir
+/home/smoker/day1/build/demo_topic/CMakeFiles/install/local.dir
+/home/smoker/day1/build/demo_topic/CMakeFiles/install/strip.dir

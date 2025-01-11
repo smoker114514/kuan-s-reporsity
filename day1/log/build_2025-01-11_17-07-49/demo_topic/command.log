@@ -1,0 +1,2 @@
+Invoking command in '/home/smoker/day1/build/demo_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/smoker/day1/demo_topic -DCMAKE_INSTALL_PREFIX=/home/smoker/day1/install/demo_topic
+Invoked command in '/home/smoker/day1/build/demo_topic' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/smoker/day1/demo_topic -DCMAKE_INSTALL_PREFIX=/home/smoker/day1/install/demo_topic
