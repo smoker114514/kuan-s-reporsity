@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/gao.dir/show_img.cpp.o -o gao 

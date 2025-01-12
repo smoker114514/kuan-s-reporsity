@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/aaa.dir/pengzhang.cpp.o -o aaa 

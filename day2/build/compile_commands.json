@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/smoker/class_3/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/opencv4 -g -o CMakeFiles/abc.dir/ShiBie.cpp.o -c /home/smoker/class_3/ShiBie.cpp",
+  "file": "/home/smoker/class_3/ShiBie.cpp"
+},
+{
+  "directory": "/home/smoker/class_3/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/opencv4 -g -o CMakeFiles/putin.dir/show_img.cpp.o -c /home/smoker/class_3/show_img.cpp",
+  "file": "/home/smoker/class_3/show_img.cpp"
+},
+{
+  "directory": "/home/smoker/class_3/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/opencv4 -g -o CMakeFiles/gaosimohu.dir/gaosimohu.cpp.o -c /home/smoker/class_3/gaosimohu.cpp",
+  "file": "/home/smoker/class_3/gaosimohu.cpp"
+},
+{
+  "directory": "/home/smoker/class_3/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/opencv4 -g -o CMakeFiles/pengzhang.dir/pengzhang.cpp.o -c /home/smoker/class_3/pengzhang.cpp",
+  "file": "/home/smoker/class_3/pengzhang.cpp"
+},
+{
+  "directory": "/home/smoker/class_3/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/opencv4 -g -o CMakeFiles/bbb.dir/aaa.cpp.o -c /home/smoker/class_3/aaa.cpp",
+  "file": "/home/smoker/class_3/aaa.cpp"
+},
+{
+  "directory": "/home/smoker/class_3/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/opencv4 -g -o CMakeFiles/www.dir/www.cpp.o -c /home/smoker/class_3/www.cpp",
+  "file": "/home/smoker/class_3/www.cpp"
+},
+{
+  "directory": "/home/smoker/class_3/build",
+  "command": "/usr/bin/g++  -isystem /usr/include/opencv4 -g -o CMakeFiles/hu.dir/hu.cpp.o -c /home/smoker/class_3/hu.cpp",
+  "file": "/home/smoker/class_3/hu.cpp"
+}
+]

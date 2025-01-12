@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DisplayImage",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "abc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-abc-Debug-2d732aa3183f66264848.json",
+					"name" : "abc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bbb::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bbb-Debug-c51fa610c973508ac322.json",
+					"name" : "bbb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gaosimohu::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gaosimohu-Debug-479ff5bfa70edfe99272.json",
+					"name" : "gaosimohu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hu::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hu-Debug-a8dbcc5622cc99cde6f7.json",
+					"name" : "hu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pengzhang::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pengzhang-Debug-7d42f7eb363a77b29b1b.json",
+					"name" : "pengzhang",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "putin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-putin-Debug-66a122eb8d8cb3cd2808.json",
+					"name" : "putin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "www::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-www-Debug-c41d9a1a5ddf0b31325e.json",
+					"name" : "www",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/smoker/class_3/build",
+		"source" : "/home/smoker/class_3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

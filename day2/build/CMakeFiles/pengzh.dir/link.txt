@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/pengzh.dir/gaosimohu.cpp.o -o pengzh 

@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/peng.dir/gaosimohu.cpp.o -o peng 
