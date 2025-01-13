@@ -1,0 +1,17 @@
+/home/smoker/4.1/day3/install/my_package/lib/my_package/my_node
+/home/smoker/4.1/day3/install/my_package/lib/my_package/result
+/home/smoker/4.1/day3/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+/home/smoker/4.1/day3/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+/home/smoker/4.1/day3/install/my_package/share/my_package/environment/ament_prefix_path.sh
+/home/smoker/4.1/day3/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+/home/smoker/4.1/day3/install/my_package/share/my_package/environment/path.sh
+/home/smoker/4.1/day3/install/my_package/share/my_package/environment/path.dsv
+/home/smoker/4.1/day3/install/my_package/share/my_package/local_setup.bash
+/home/smoker/4.1/day3/install/my_package/share/my_package/local_setup.sh
+/home/smoker/4.1/day3/install/my_package/share/my_package/local_setup.zsh
+/home/smoker/4.1/day3/install/my_package/share/my_package/local_setup.dsv
+/home/smoker/4.1/day3/install/my_package/share/my_package/package.dsv
+/home/smoker/4.1/day3/install/my_package/share/ament_index/resource_index/packages/my_package
+/home/smoker/4.1/day3/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+/home/smoker/4.1/day3/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+/home/smoker/4.1/day3/install/my_package/share/my_package/package.xml

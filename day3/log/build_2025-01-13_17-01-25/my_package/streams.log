@@ -1,0 +1,28 @@
+[0.009s] Invoking command in '/home/smoker/4.1/day3/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/smoker/4.1/day3/build/my_package -- -j4 -l4
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target result[0m
+[0.065s] [ 25%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[0.068s] [ 75%] Built target result
+[3.304s] [100%] [32m[1mLinking CXX executable my_node[0m
+[3.474s] [100%] Built target my_node
+[3.486s] Invoked command in '/home/smoker/4.1/day3/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/smoker/4.1/day3/build/my_package -- -j4 -l4
+[3.532s] Invoking command in '/home/smoker/4.1/day3/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/smoker/4.1/day3/build/my_package
+[3.538s] -- Install configuration: ""
+[3.538s] -- Installing: /home/smoker/4.1/day3/install/my_package/lib/my_package/my_node
+[3.539s] -- Set runtime path of "/home/smoker/4.1/day3/install/my_package/lib/my_package/my_node" to ""
+[3.540s] -- Up-to-date: /home/smoker/4.1/day3/install/my_package/lib/my_package/result
+[3.540s] -- Up-to-date: /home/smoker/4.1/day3/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[3.540s] -- Up-to-date: /home/smoker/4.1/day3/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[3.540s] -- Up-to-date: /home/smoker/4.1/day3/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[3.540s] -- Up-to-date: /home/smoker/4.1/day3/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[3.540s] -- Up-to-date: /home/smoker/4.1/day3/install/my_package/share/my_package/environment/path.sh
+[3.541s] -- Up-to-date: /home/smoker/4.1/day3/install/my_package/share/my_package/environment/path.dsv
+[3.541s] -- Up-to-date: /home/smoker/4.1/day3/install/my_package/share/my_package/local_setup.bash
+[3.541s] -- Up-to-date: /home/smoker/4.1/day3/install/my_package/share/my_package/local_setup.sh
+[3.542s] -- Up-to-date: /home/smoker/4.1/day3/install/my_package/share/my_package/local_setup.zsh
+[3.542s] -- Up-to-date: /home/smoker/4.1/day3/install/my_package/share/my_package/local_setup.dsv
+[3.542s] -- Installing: /home/smoker/4.1/day3/install/my_package/share/my_package/package.dsv
+[3.542s] -- Up-to-date: /home/smoker/4.1/day3/install/my_package/share/ament_index/resource_index/packages/my_package
+[3.542s] -- Up-to-date: /home/smoker/4.1/day3/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[3.542s] -- Up-to-date: /home/smoker/4.1/day3/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[3.543s] -- Up-to-date: /home/smoker/4.1/day3/install/my_package/share/my_package/package.xml
+[3.544s] Invoked command in '/home/smoker/4.1/day3/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/smoker/4.1/day3/build/my_package

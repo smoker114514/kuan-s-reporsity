@@ -1,0 +1,95 @@
+[0.000000] (-) TimerEvent: {}
+[0.000695] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000745] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.007721] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.008854] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'build'}
+[0.008973] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/smoker/4.1/day3/build/my_package', '--', '-j4', '-l4'], 'cwd': '/home/smoker/4.1/day3/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'smoker'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/smoker'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1580'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1800'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0c251781057d1ae6026d94ee6784b63b'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5233'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'smoker'), ('JOURNAL_STREAM', '8:23654'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'smoker'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/smoker-virtual-machine:@/tmp/.ICE-unix/1800,unix/smoker-virtual-machine:/tmp/.ICE-unix/1800'), ('INVOCATION_ID', '1549383b6a3241fdacae5b10114750e3'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4a2d6651c6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/smoker/4.1/day3/build/my_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0c251781057d1ae6026d94ee6784b63b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.033558] (my_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098815] (-) TimerEvent: {}
+[0.117639] (my_package) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.136123] (my_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.137270] (my_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.140621] (my_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.146260] (my_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.153759] (my_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.175056] (my_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.176176] (my_package) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199403] (-) TimerEvent: {}
+[0.251612] (my_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.280754] (my_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.299620] (-) TimerEvent: {}
+[0.326192] (my_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.326363] (my_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/smoker/4.1/day3/my_package/include>\n'}
+[0.326407] (my_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.327284] (my_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.327685] (my_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.327757] (my_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.328914] (my_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.328965] (my_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.338659] (my_package) StdoutLine: {'line': b'-- Generating done\n'}
+[0.341034] (my_package) StdoutLine: {'line': b'-- Build files have been written to: /home/smoker/4.1/day3/build/my_package\n'}
+[0.370415] (my_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o\x1b[0m\n'}
+[0.399860] (-) TimerEvent: {}
+[0.500461] (-) TimerEvent: {}
+[0.601092] (-) TimerEvent: {}
+[0.701549] (-) TimerEvent: {}
+[0.802101] (-) TimerEvent: {}
+[0.902749] (-) TimerEvent: {}
+[1.003698] (-) TimerEvent: {}
+[1.104403] (-) TimerEvent: {}
+[1.205268] (-) TimerEvent: {}
+[1.306086] (-) TimerEvent: {}
+[1.407078] (-) TimerEvent: {}
+[1.507762] (-) TimerEvent: {}
+[1.608513] (-) TimerEvent: {}
+[1.709210] (-) TimerEvent: {}
+[1.810308] (-) TimerEvent: {}
+[1.911334] (-) TimerEvent: {}
+[2.012046] (-) TimerEvent: {}
+[2.112552] (-) TimerEvent: {}
+[2.212997] (-) TimerEvent: {}
+[2.313808] (-) TimerEvent: {}
+[2.414470] (-) TimerEvent: {}
+[2.514922] (-) TimerEvent: {}
+[2.615528] (-) TimerEvent: {}
+[2.716185] (-) TimerEvent: {}
+[2.817027] (-) TimerEvent: {}
+[2.918018] (-) TimerEvent: {}
+[3.018686] (-) TimerEvent: {}
+[3.119493] (-) TimerEvent: {}
+[3.220098] (-) TimerEvent: {}
+[3.320624] (-) TimerEvent: {}
+[3.421151] (-) TimerEvent: {}
+[3.521819] (-) TimerEvent: {}
+[3.622565] (-) TimerEvent: {}
+[3.723152] (-) TimerEvent: {}
+[3.823936] (-) TimerEvent: {}
+[3.874170] (my_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable my_node\x1b[0m\n'}
+[3.924144] (-) TimerEvent: {}
+[4.024749] (-) TimerEvent: {}
+[4.057700] (my_package) StdoutLine: {'line': b'[100%] Built target my_node\n'}
+[4.071331] (my_package) CommandEnded: {'returncode': 0}
+[4.102982] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'install'}
+[4.113816] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/smoker/4.1/day3/build/my_package'], 'cwd': '/home/smoker/4.1/day3/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'smoker'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/smoker'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1580'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1800'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0c251781057d1ae6026d94ee6784b63b'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5233'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'smoker'), ('JOURNAL_STREAM', '8:23654'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'smoker'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/smoker-virtual-machine:@/tmp/.ICE-unix/1800,unix/smoker-virtual-machine:/tmp/.ICE-unix/1800'), ('INVOCATION_ID', '1549383b6a3241fdacae5b10114750e3'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4a2d6651c6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/smoker/4.1/day3/build/my_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0c251781057d1ae6026d94ee6784b63b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.120650] (my_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.120859] (my_package) StdoutLine: {'line': b'-- Installing: /home/smoker/4.1/day3/install/my_package/lib/my_package/my_node\n'}
+[4.122615] (my_package) StdoutLine: {'line': b'-- Set runtime path of "/home/smoker/4.1/day3/install/my_package/lib/my_package/my_node" to ""\n'}
+[4.122934] (my_package) StdoutLine: {'line': b'-- Installing: /home/smoker/4.1/day3/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package\n'}
+[4.123135] (my_package) StdoutLine: {'line': b'-- Installing: /home/smoker/4.1/day3/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package\n'}
+[4.123525] (my_package) StdoutLine: {'line': b'-- Installing: /home/smoker/4.1/day3/install/my_package/share/my_package/environment/ament_prefix_path.sh\n'}
+[4.123623] (my_package) StdoutLine: {'line': b'-- Installing: /home/smoker/4.1/day3/install/my_package/share/my_package/environment/ament_prefix_path.dsv\n'}
+[4.123816] (my_package) StdoutLine: {'line': b'-- Installing: /home/smoker/4.1/day3/install/my_package/share/my_package/environment/path.sh\n'}
+[4.124012] (my_package) StdoutLine: {'line': b'-- Installing: /home/smoker/4.1/day3/install/my_package/share/my_package/environment/path.dsv\n'}
+[4.124179] (my_package) StdoutLine: {'line': b'-- Installing: /home/smoker/4.1/day3/install/my_package/share/my_package/local_setup.bash\n'}
+[4.124286] (my_package) StdoutLine: {'line': b'-- Installing: /home/smoker/4.1/day3/install/my_package/share/my_package/local_setup.sh\n'}
+[4.124482] (my_package) StdoutLine: {'line': b'-- Installing: /home/smoker/4.1/day3/install/my_package/share/my_package/local_setup.zsh\n'}
+[4.124534] (my_package) StdoutLine: {'line': b'-- Installing: /home/smoker/4.1/day3/install/my_package/share/my_package/local_setup.dsv\n'}
+[4.124692] (my_package) StdoutLine: {'line': b'-- Installing: /home/smoker/4.1/day3/install/my_package/share/my_package/package.dsv\n'}
+[4.124748] (-) TimerEvent: {}
+[4.124960] (my_package) StdoutLine: {'line': b'-- Installing: /home/smoker/4.1/day3/install/my_package/share/ament_index/resource_index/packages/my_package\n'}
+[4.125090] (my_package) StdoutLine: {'line': b'-- Installing: /home/smoker/4.1/day3/install/my_package/share/my_package/cmake/my_packageConfig.cmake\n'}
+[4.125416] (my_package) StdoutLine: {'line': b'-- Installing: /home/smoker/4.1/day3/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake\n'}
+[4.125595] (my_package) StdoutLine: {'line': b'-- Installing: /home/smoker/4.1/day3/install/my_package/share/my_package/package.xml\n'}
+[4.127806] (my_package) CommandEnded: {'returncode': 0}
+[4.176016] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[4.177159] (-) EventReactorShutdown: {}

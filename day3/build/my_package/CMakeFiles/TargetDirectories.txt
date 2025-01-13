@@ -1,0 +1,11 @@
+/home/smoker/4.1/day3/build/my_package/CMakeFiles/uninstall.dir
+/home/smoker/4.1/day3/build/my_package/CMakeFiles/my_package_uninstall.dir
+/home/smoker/4.1/day3/build/my_package/CMakeFiles/my_node.dir
+/home/smoker/4.1/day3/build/my_package/CMakeFiles/result.dir
+/home/smoker/4.1/day3/build/my_package/CMakeFiles/test.dir
+/home/smoker/4.1/day3/build/my_package/CMakeFiles/edit_cache.dir
+/home/smoker/4.1/day3/build/my_package/CMakeFiles/rebuild_cache.dir
+/home/smoker/4.1/day3/build/my_package/CMakeFiles/list_install_components.dir
+/home/smoker/4.1/day3/build/my_package/CMakeFiles/install.dir
+/home/smoker/4.1/day3/build/my_package/CMakeFiles/install/local.dir
+/home/smoker/4.1/day3/build/my_package/CMakeFiles/install/strip.dir

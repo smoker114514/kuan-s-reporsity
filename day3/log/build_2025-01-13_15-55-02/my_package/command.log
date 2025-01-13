@@ -1,0 +1,4 @@
+Invoking command in '/home/smoker/4.1/day3/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/smoker/4.1/day3/my_package -DCMAKE_INSTALL_PREFIX=/home/smoker/4.1/day3/install/my_package
+Invoked command in '/home/smoker/4.1/day3/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/smoker/4.1/day3/my_package -DCMAKE_INSTALL_PREFIX=/home/smoker/4.1/day3/install/my_package
+Invoking command in '/home/smoker/4.1/day3/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/smoker/4.1/day3/build/my_package -- -j4 -l4
+Invoked command in '/home/smoker/4.1/day3/build/my_package' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/smoker/4.1/day3/build/my_package -- -j4 -l4
